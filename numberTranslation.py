@@ -63,7 +63,7 @@ def translation(number: str) -> str:
             result += magnitude_lst[i] + " "
 
     # Remove any extra spaces at the end
-    return result.strip()
+    return result.strip().capitalize()
 
 # n = "90_124_145"
 # expected = "ninety million one hundred thousand twenty four one hundred forty five "
